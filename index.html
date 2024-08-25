@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>polygon-kernel</title>
+    <meta name="description" content="A visualization showing the two relevant edge sets for computing the kernel of a random star-shaped polygon.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div>
+        <input type="checkbox" name="show-max-edge-angle" id="show-max-edge-angle" aria-label="show max edge angle" onchange="render()" checked />
+        <input type="checkbox" name="show-sorted-edge-sub-set-1" id="show-sorted-edge-sub-set-1" aria-label="show sorted edge sub set 1" onchange="render()" checked />
+        <input type="checkbox" name="show-sorted-edge-sub-set-2" id="show-sorted-edge-sub-set-2" aria-label="show sorted edge sub set 2" onchange="render()" checked />
+    </div>
+</body>
+</html>
